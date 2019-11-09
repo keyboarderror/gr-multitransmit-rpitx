@@ -1,5 +1,5 @@
 # gr-multitransmit-rpitx
-A simple AM/FM/SSB modulator for rpitx in GRC 3.7x
+A simple AM/FM/SSB modulator for rpitx in GRC 3.9x
 
 To connect run on the pi:
 
