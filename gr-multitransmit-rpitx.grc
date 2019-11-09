@@ -277,7 +277,7 @@ blocks:
     label: USB
     'true': 'True'
     type: int
-    value: 'True'
+    value: 'False'
   states:
     bus_sink: false
     bus_source: false
