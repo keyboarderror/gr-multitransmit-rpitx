@@ -1,5 +1,6 @@
 # gr-multitransmit-rpitx
-A simple AM/FM/SSB modulator for rpitx in GRC 3.7x
+A simple AM/FM/SSB modulator for rpitx in GRC 3.7x with QT GUI.
+Based on work by csete/OZ9AEC and others. 
 
 To connect run rpitx and set frequency on the Raspberry pi for example:
 
