@@ -78,7 +78,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>Transmitter for RpiTX</value>
+      <value>Multitransmit for RpiTX</value>
     </param>
   </block>
   <block>
@@ -101,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 1244)</value>
+      <value>(8, 900)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -140,7 +140,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 132)</value>
+      <value>(8, 84)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -171,7 +171,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 988)</value>
+      <value>(8, 644)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -238,7 +238,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 1116)</value>
+      <value>(8, 772)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -285,7 +285,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(136, 988)</value>
+      <value>(128, 644)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -320,7 +320,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>2800</value>
+      <value>2500</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -328,7 +328,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 476)</value>
+      <value>(8, 404)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -391,7 +391,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 476)</value>
+      <value>(8, 276)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -458,7 +458,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(136, 1468)</value>
+      <value>(8, 1124)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -505,7 +505,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(136, 1244)</value>
+      <value>(136, 900)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -548,7 +548,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 748)</value>
+      <value>(8, 532)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -599,7 +599,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 860)</value>
+      <value>(152, 532)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -642,7 +642,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 212)</value>
+      <value>(8, 148)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -705,7 +705,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(136, 1108)</value>
+      <value>(136, 772)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -772,7 +772,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 1468)</value>
+      <value>(8, 1012)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -819,7 +819,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 1356)</value>
+      <value>(136, 1012)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -980,7 +980,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>analog_const_source_x_0</value>
+      <value>analog_const_source</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1027,7 +1027,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>analog_nbfm_tx_0</value>
+      <value>analog_nbfm_tx</value>
     </param>
     <param>
       <key>max_dev</key>
@@ -1052,132 +1052,6 @@
     <param>
       <key>tau</key>
       <value>75e-6</value>
-    </param>
-  </block>
-  <block>
-    <key>analog_sig_source_x</key>
-    <param>
-      <key>amp</key>
-      <value>0.1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>freq</key>
-      <value>ctcss_tone</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(696, 1316)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>analog_sig_source_x_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>offset</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>audio_rate</value>
-    </param>
-    <param>
-      <key>waveform</key>
-      <value>analog.GR_COS_WAVE</value>
-    </param>
-  </block>
-  <block>
-    <key>analog_sig_source_x</key>
-    <param>
-      <key>amp</key>
-      <value>.3</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>freq</key>
-      <value>test_tone_frequency</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(224, 220)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>analog_sig_source_x_0_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>offset</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>audio_rate</value>
-    </param>
-    <param>
-      <key>waveform</key>
-      <value>analog.GR_SIN_WAVE</value>
     </param>
   </block>
   <block>
@@ -1216,7 +1090,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>analog_sig_source_x_2</value>
+      <value>analog_sig_source_am</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1247,7 +1121,7 @@
     <key>analog_sig_source_x</key>
     <param>
       <key>amp</key>
-      <value>1.8 if usb_on else 0</value>
+      <value>0.1</value>
     </param>
     <param>
       <key>alias</key>
@@ -1267,19 +1141,19 @@
     </param>
     <param>
       <key>freq</key>
-      <value>0</value>
+      <value>ctcss_tone</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(480, 868)</value>
+      <value>(696, 1316)</value>
     </param>
     <param>
       <key>_rotation</key>
-      <value>0</value>
+      <value>180</value>
     </param>
     <param>
       <key>id</key>
-      <value>analog_sig_source_x_3</value>
+      <value>analog_sig_source_ctcss</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1295,7 +1169,7 @@
     </param>
     <param>
       <key>type</key>
-      <value>complex</value>
+      <value>float</value>
     </param>
     <param>
       <key>samp_rate</key>
@@ -1342,7 +1216,133 @@
     </param>
     <param>
       <key>id</key>
-      <value>analog_sig_source_x_3_0</value>
+      <value>analog_sig_source_lsb</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>offset</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>audio_rate</value>
+    </param>
+    <param>
+      <key>waveform</key>
+      <value>analog.GR_COS_WAVE</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_sig_source_x</key>
+    <param>
+      <key>amp</key>
+      <value>.3</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>freq</key>
+      <value>test_tone_frequency</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(224, 220)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>analog_sig_source_test</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>offset</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>audio_rate</value>
+    </param>
+    <param>
+      <key>waveform</key>
+      <value>analog.GR_SIN_WAVE</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_sig_source_x</key>
+    <param>
+      <key>amp</key>
+      <value>1.8 if usb_on else 0</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>freq</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(480, 868)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>analog_sig_source_usb</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1401,7 +1401,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>analog_wfm_tx_0</value>
+      <value>analog_wfm_tx</value>
     </param>
     <param>
       <key>max_dev</key>
@@ -1460,10 +1460,65 @@
     </param>
     <param>
       <key>id</key>
-      <value>audio_sink_0</value>
+      <value>audio_sink_rx</value>
     </param>
     <param>
       <key>num_inputs</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ok_to_block</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>48000</value>
+    </param>
+  </block>
+  <block>
+    <key>audio_source</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>device_name</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(208, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>audio_source</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_outputs</key>
       <value>1</value>
     </param>
     <param>
@@ -1507,62 +1562,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>audio_source_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>num_outputs</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>ok_to_block</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>48000</value>
-    </param>
-  </block>
-  <block>
-    <key>audio_source</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>device_name</key>
-      <value>pulse</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(216, 4)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>audio_source_0_0</value>
+      <value>audio_source_rx</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1609,15 +1609,15 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>type</key>
-      <value>interp_fir_filter_ccc</value>
+      <value>fir_filter_ccf</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(472, 700)</value>
+      <value>(472, 476)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1633,7 +1633,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>band_pass_filter_0</value>
+      <value>band_pass_filter_am</value>
     </param>
     <param>
       <key>interp</key>
@@ -1657,7 +1657,7 @@
     </param>
     <param>
       <key>width</key>
-      <value>200</value>
+      <value>400</value>
     </param>
     <param>
       <key>win</key>
@@ -1712,7 +1712,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>band_pass_filter_0_0</value>
+      <value>band_pass_filter_lsb</value>
     </param>
     <param>
       <key>interp</key>
@@ -1767,15 +1767,15 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>True</value>
     </param>
     <param>
       <key>type</key>
-      <value>fir_filter_ccf</value>
+      <value>interp_fir_filter_ccc</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(472, 476)</value>
+      <value>(472, 700)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1791,7 +1791,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>band_pass_filter_1</value>
+      <value>band_pass_filter_usb</value>
     </param>
     <param>
       <key>interp</key>
@@ -1815,7 +1815,7 @@
     </param>
     <param>
       <key>width</key>
-      <value>400</value>
+      <value>200</value>
     </param>
     <param>
       <key>win</key>
@@ -1858,7 +1858,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blks_tcp_sink_0</value>
+      <value>blks_tcp_sink_rpitx</value>
     </param>
     <param>
       <key>type</key>
@@ -1878,57 +1878,6 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
   </block>
   <block>
-    <key>blocks_add_const_vxx</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>.5</value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(664, 532)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_add_const_vxx_0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
     <key>blocks_add_xx</key>
     <param>
       <key>alias</key>
@@ -1948,7 +1897,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 1224)</value>
+      <value>(576, 16)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1956,113 +1905,11 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_add_xx_0</value>
+      <value>blocks_add</value>
     </param>
     <param>
       <key>type</key>
       <value>float</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_add_xx</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1048, 1024)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_add_xx_0_0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_add_xx</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1240, 1376)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_add_xx_0_0_0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2109,7 +1956,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_add_xx_1</value>
+      <value>blocks_add_am_ssb</value>
     </param>
     <param>
       <key>type</key>
@@ -2152,7 +1999,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(576, 16)</value>
+      <value>(1048, 1024)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2160,7 +2007,160 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_add_xx_2</value>
+      <value>blocks_add_am_ssb_fm</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_add_const_vxx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>.5</value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(664, 532)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_add_const_am</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_add_xx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1240, 1376)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_add_fm</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_add_xx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(368, 1224)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_add_nbfm</value>
     </param>
     <param>
       <key>type</key>
@@ -2211,7 +2211,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_float_to_complex_0</value>
+      <value>blocks_float_to_complex_am_ssb</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2227,7 +2227,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
   </block>
   <block>
-    <key>blocks_multiply_const_vxx</key>
+    <key>blocks_multiply_xx</key>
     <param>
       <key>alias</key>
       <value></value>
@@ -2235,10 +2235,6 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     <param>
       <key>comment</key>
       <value></value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>enable_test_tone</value>
     </param>
     <param>
       <key>affinity</key>
@@ -2250,7 +2246,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 148)</value>
+      <value>(832, 656)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2258,11 +2254,11 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_const_vxx_0</value>
+      <value>blocks_multiply_am</value>
     </param>
     <param>
       <key>type</key>
-      <value>float</value>
+      <value>complex</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2271,6 +2267,10 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     <param>
       <key>minoutbuf</key>
       <value>0</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
     </param>
     <param>
       <key>vlen</key>
@@ -2309,7 +2309,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_const_vxx_1</value>
+      <value>blocks_multiply_const_ctcss</value>
     </param>
     <param>
       <key>type</key>
@@ -2360,7 +2360,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_const_vxx_2</value>
+      <value>blocks_multiply_const_nbfm</value>
     </param>
     <param>
       <key>type</key>
@@ -2411,11 +2411,62 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_const_vxx_2_0</value>
+      <value>blocks_multiply_const_rpitx</value>
     </param>
     <param>
       <key>type</key>
       <value>complex</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_multiply_const_vxx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>enable_test_tone</value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(400, 148)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_multiply_const_test</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2462,7 +2513,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_const_vxx_2_1</value>
+      <value>blocks_multiply_const_wfm</value>
     </param>
     <param>
       <key>type</key>
@@ -2501,7 +2552,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(832, 656)</value>
+      <value>(832, 976)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2509,7 +2560,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_xx_2</value>
+      <value>blocks_multiply_lsb</value>
     </param>
     <param>
       <key>type</key>
@@ -2560,58 +2611,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>blocks_multiply_xx_3</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_multiply_xx</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(832, 976)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_multiply_xx_3_0</value>
+      <value>blocks_multiply_usb</value>
     </param>
     <param>
       <key>type</key>
@@ -2670,7 +2670,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>freq_xlating_fir_filter_xxx_0</value>
+      <value>freq_xlating_fir_filter_rpitx</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2741,7 +2741,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>low_pass_filter_0</value>
+      <value>low_pass_filter_nbfm</value>
     </param>
     <param>
       <key>interp</key>
@@ -2766,68 +2766,6 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     <param>
       <key>win</key>
       <value>firdes.WIN_HAMMING</value>
-    </param>
-  </block>
-  <block>
-    <key>note</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(832, 604)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>note_0</value>
-    </param>
-    <param>
-      <key>note</key>
-      <value>AM</value>
-    </param>
-  </block>
-  <block>
-    <key>note</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(800, 756)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>note_1</value>
-    </param>
-    <param>
-      <key>note</key>
-      <value>Upper sideband</value>
     </param>
   </block>
   <block>
@@ -2889,38 +2827,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>note</key>
-      <value>NBFM</value>
-    </param>
-  </block>
-  <block>
-    <key>note</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(368, 1404)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>note_5</value>
-    </param>
-    <param>
-      <key>note</key>
-      <value>CTCSS Tone</value>
+      <value>NFM</value>
     </param>
   </block>
   <block>
@@ -2970,7 +2877,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(408, 100)</value>
+      <value>(832, 604)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2978,11 +2885,73 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>note_7</value>
+      <value>note_am</value>
     </param>
     <param>
       <key>note</key>
-      <value>Test Tone</value>
+      <value>AM</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(368, 1404)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_ctcss</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>CTCSS Tone</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(728, 212)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_rpitx</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>Rpitx Output</value>
     </param>
   </block>
   <block>
@@ -3009,7 +2978,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>note_8</value>
+      <value>note_rx</value>
     </param>
     <param>
       <key>note</key>
@@ -3028,11 +2997,11 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(728, 204)</value>
+      <value>(408, 100)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3040,11 +3009,42 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>note_9</value>
+      <value>note_test</value>
     </param>
     <param>
       <key>note</key>
-      <value>Rpitx Output</value>
+      <value>Test Tone</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(800, 756)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_usb</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>Upper sideband</value>
     </param>
   </block>
   <block>
@@ -3095,7 +3095,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>qtgui_sink_x_0</value>
+      <value>qtgui_sink_transmit</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -3198,7 +3198,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>qtgui_waterfall_sink_x_0</value>
+      <value>qtgui_waterfall_sink_rpitx</value>
     </param>
     <param>
       <key>int_max</key>
@@ -3405,7 +3405,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>rational_resampler_xxx_0_0</value>
+      <value>rational_resampler_nbfm</value>
     </param>
     <param>
       <key>interp</key>
@@ -3464,7 +3464,7 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
     </param>
     <param>
       <key>id</key>
-      <value>rational_resampler_xxx_0_0_0</value>
+      <value>rational_resampler_wfm</value>
     </param>
     <param>
       <key>interp</key>
@@ -3495,235 +3495,235 @@ Then set the TCP sink address and port (8011) to the location of the pi running 
   </connection>
   <connection>
     <source_block_id>Receive_Audio_Mute_0</source_block_id>
-    <sink_block_id>audio_sink_0</sink_block_id>
+    <sink_block_id>audio_sink_rx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>analog_const_source_x_0</source_block_id>
-    <sink_block_id>blocks_float_to_complex_0</sink_block_id>
+    <source_block_id>analog_const_source</source_block_id>
+    <sink_block_id>blocks_float_to_complex_am_ssb</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>analog_nbfm_tx_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_2</sink_block_id>
+    <source_block_id>analog_nbfm_tx</source_block_id>
+    <sink_block_id>blocks_multiply_const_nbfm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>analog_sig_source_x_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>analog_sig_source_x_0_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>analog_sig_source_x_2</source_block_id>
-    <sink_block_id>blocks_multiply_xx_2</sink_block_id>
+    <source_block_id>analog_sig_source_am</source_block_id>
+    <sink_block_id>blocks_multiply_am</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>analog_sig_source_x_3</source_block_id>
-    <sink_block_id>blocks_multiply_xx_3</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>1</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>analog_sig_source_x_3_0</source_block_id>
-    <sink_block_id>blocks_multiply_xx_3_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>1</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>analog_wfm_tx_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_2_1</sink_block_id>
+    <source_block_id>analog_sig_source_ctcss</source_block_id>
+    <sink_block_id>blocks_multiply_const_ctcss</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>audio_source_0</source_block_id>
+    <source_block_id>analog_sig_source_lsb</source_block_id>
+    <sink_block_id>blocks_multiply_lsb</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_sig_source_test</source_block_id>
+    <sink_block_id>blocks_multiply_const_test</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_sig_source_usb</source_block_id>
+    <sink_block_id>blocks_multiply_usb</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_wfm_tx</source_block_id>
+    <sink_block_id>blocks_multiply_const_wfm</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>audio_source</source_block_id>
+    <sink_block_id>blocks_add</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>audio_source_rx</source_block_id>
     <sink_block_id>Receive_Audio_Mute</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>audio_source_0_0</source_block_id>
-    <sink_block_id>blocks_add_xx_2</sink_block_id>
+    <source_block_id>band_pass_filter_am</source_block_id>
+    <sink_block_id>blocks_add_const_am</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>band_pass_filter_0</source_block_id>
-    <sink_block_id>blocks_multiply_xx_3</sink_block_id>
+    <source_block_id>band_pass_filter_lsb</source_block_id>
+    <sink_block_id>blocks_multiply_lsb</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>band_pass_filter_0_0</source_block_id>
-    <sink_block_id>blocks_multiply_xx_3_0</sink_block_id>
+    <source_block_id>band_pass_filter_usb</source_block_id>
+    <sink_block_id>blocks_multiply_usb</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>band_pass_filter_1</source_block_id>
-    <sink_block_id>blocks_add_const_vxx_0</sink_block_id>
+    <source_block_id>blocks_add</source_block_id>
+    <sink_block_id>analog_wfm_tx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_add_const_vxx_0</source_block_id>
-    <sink_block_id>blocks_multiply_xx_2</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_add_xx_0</source_block_id>
-    <sink_block_id>low_pass_filter_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_add_xx_0_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_2_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_add_xx_0_0_0</source_block_id>
-    <sink_block_id>blocks_add_xx_0_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_add_xx_1</source_block_id>
-    <sink_block_id>blocks_add_xx_0_0</sink_block_id>
+    <source_block_id>blocks_add</source_block_id>
+    <sink_block_id>blocks_add_nbfm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_add_xx_2</source_block_id>
-    <sink_block_id>analog_wfm_tx_0</sink_block_id>
+    <source_block_id>blocks_add</source_block_id>
+    <sink_block_id>blocks_float_to_complex_am_ssb</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_add_xx_2</source_block_id>
-    <sink_block_id>blocks_add_xx_0</sink_block_id>
+    <source_block_id>blocks_add_am_ssb</source_block_id>
+    <sink_block_id>blocks_add_am_ssb_fm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_add_xx_2</source_block_id>
-    <sink_block_id>blocks_float_to_complex_0</sink_block_id>
+    <source_block_id>blocks_add_am_ssb_fm</source_block_id>
+    <sink_block_id>blocks_multiply_const_rpitx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_float_to_complex_0</source_block_id>
-    <sink_block_id>band_pass_filter_0</sink_block_id>
+    <source_block_id>blocks_add_const_am</source_block_id>
+    <sink_block_id>blocks_multiply_am</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_float_to_complex_0</source_block_id>
-    <sink_block_id>band_pass_filter_0_0</sink_block_id>
+    <source_block_id>blocks_add_fm</source_block_id>
+    <sink_block_id>blocks_add_am_ssb_fm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_float_to_complex_0</source_block_id>
-    <sink_block_id>band_pass_filter_1</sink_block_id>
+    <source_block_id>blocks_add_nbfm</source_block_id>
+    <sink_block_id>low_pass_filter_nbfm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_0</source_block_id>
-    <sink_block_id>blocks_add_xx_2</sink_block_id>
+    <source_block_id>blocks_float_to_complex_am_ssb</source_block_id>
+    <sink_block_id>band_pass_filter_am</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_float_to_complex_am_ssb</source_block_id>
+    <sink_block_id>band_pass_filter_lsb</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_float_to_complex_am_ssb</source_block_id>
+    <sink_block_id>band_pass_filter_usb</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_am</source_block_id>
+    <sink_block_id>blocks_add_am_ssb</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_ctcss</source_block_id>
+    <sink_block_id>blocks_add_nbfm</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_nbfm</source_block_id>
+    <sink_block_id>rational_resampler_nbfm</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_rpitx</source_block_id>
+    <sink_block_id>freq_xlating_fir_filter_rpitx</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_rpitx</source_block_id>
+    <sink_block_id>qtgui_sink_transmit</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_multiply_const_test</source_block_id>
+    <sink_block_id>blocks_add</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_1</source_block_id>
-    <sink_block_id>blocks_add_xx_0</sink_block_id>
+    <source_block_id>blocks_multiply_const_wfm</source_block_id>
+    <sink_block_id>rational_resampler_wfm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_2</source_block_id>
-    <sink_block_id>rational_resampler_xxx_0_0</sink_block_id>
+    <source_block_id>blocks_multiply_lsb</source_block_id>
+    <sink_block_id>blocks_add_am_ssb</sink_block_id>
     <source_key>0</source_key>
-    <sink_key>0</sink_key>
+    <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_2_0</source_block_id>
-    <sink_block_id>freq_xlating_fir_filter_xxx_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_multiply_const_vxx_2_0</source_block_id>
-    <sink_block_id>qtgui_sink_x_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_multiply_const_vxx_2_1</source_block_id>
-    <sink_block_id>rational_resampler_xxx_0_0_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_multiply_xx_2</source_block_id>
-    <sink_block_id>blocks_add_xx_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_multiply_xx_3</source_block_id>
-    <sink_block_id>blocks_add_xx_1</sink_block_id>
+    <source_block_id>blocks_multiply_usb</source_block_id>
+    <sink_block_id>blocks_add_am_ssb</sink_block_id>
     <source_key>0</source_key>
     <sink_key>2</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_xx_3_0</source_block_id>
-    <sink_block_id>blocks_add_xx_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>1</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>freq_xlating_fir_filter_xxx_0</source_block_id>
-    <sink_block_id>blks_tcp_sink_0</sink_block_id>
+    <source_block_id>freq_xlating_fir_filter_rpitx</source_block_id>
+    <sink_block_id>blks_tcp_sink_rpitx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>freq_xlating_fir_filter_xxx_0</source_block_id>
-    <sink_block_id>qtgui_waterfall_sink_x_0</sink_block_id>
+    <source_block_id>freq_xlating_fir_filter_rpitx</source_block_id>
+    <sink_block_id>qtgui_waterfall_sink_rpitx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>low_pass_filter_0</source_block_id>
-    <sink_block_id>analog_nbfm_tx_0</sink_block_id>
+    <source_block_id>low_pass_filter_nbfm</source_block_id>
+    <sink_block_id>analog_nbfm_tx</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>rational_resampler_xxx_0_0</source_block_id>
-    <sink_block_id>blocks_add_xx_0_0_0</sink_block_id>
+    <source_block_id>rational_resampler_nbfm</source_block_id>
+    <sink_block_id>blocks_add_fm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>rational_resampler_xxx_0_0_0</source_block_id>
-    <sink_block_id>blocks_add_xx_0_0_0</sink_block_id>
+    <source_block_id>rational_resampler_wfm</source_block_id>
+    <sink_block_id>blocks_add_fm</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
