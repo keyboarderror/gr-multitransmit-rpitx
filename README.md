@@ -2,7 +2,7 @@
 A simple AM/FM/SSB modulator for rpitx in GRC 3.7x with QT GUI.
 Based on work by csete/OZ9AEC and others. 
 
-To connect run rpitx and set frequency on the Raspberry pi for example:
+To connect run rpitx and set frequency on the Raspberry Pi for example:
 
 while true; do (nc -l 8011; dd if=/dev/zero bs=4096 count=30); done | sudo rpitx -i- -m IQFLOAT -f 434000
 
