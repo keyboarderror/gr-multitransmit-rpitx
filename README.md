@@ -9,3 +9,5 @@ while true; do (nc -l 8011; dd if=/dev/zero bs=4096 count=30); done | sudo rpitx
 Then set the TCP sink address and port (8011) to the location of the pi running rpitx.
 
 Disable accelerated graphics dtoverlay=vc4-fkms-v3d in config.txt if running on a Raspberry Pi for a slow/unresponsive GNU Radio Companion GUI. See https://github.com/gnuradio/gnuradio/issues/2848
+
+<img src="images/gr-multitransmit-rpitx.png">
